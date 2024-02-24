@@ -8,6 +8,6 @@ public class WelcomeServelet {
 
     @GetMapping("/")
     public String welcome() {
-        return "Welcome to COMP367, Parth Sharma!";
+        return "Welcome to COMP367, Parth Sharma!, Hows is everything going?";
     }
 }
